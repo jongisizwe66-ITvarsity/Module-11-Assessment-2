@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="fontawesome/css/all.css" />
+    <title>FoodieFanatix</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <!-- name/logo -->
+        <a class="navbar-brand" href="#">FoodieFanatix</a> 
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- menu bar -->
+        <div class="collapse navbar-collapse" id="navbar">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Home</a>
+            <a class="nav-item nav-link" href="gallery.html">Gallery</a>
+            <a class="nav-item nav-link" href="about.html">About</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- main display -->
+    <main>
+      <div class="container-fluid" id="fluid">
+        <div class="row">
+          <div class="col-md-4">
+            <!-- side slide show to display pictures -->
+            <div
+              id="carouselImg"
+              class="carousel slide carouselImg"
+              data-ride="carousel"
+            >
+              <ol class="carousel-indicators">
+                <li data-target="#carouselImg" data-slide-to="0"></li>
+                <li data-target="#carouselImg" data-slide-to="1"></li>
+                <li data-target="#carouselImg" data-slide-to="2"></li>
+              </ol>
+
+              <!-- insert slide images -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="images/pexels-william-choquette-2641886.jpg"
+                    class="d-block w-100 show-image"
+                    height="500"
+                  />
+                </div>
+
+                <div class="carousel-item">
+                  <img
+                    src="images/pexels-valeria-boltneva-842571.jpg"
+                    class="d-block w-100 show-image"
+                    height="500"
+                  />
+                </div>
+
+                <div class="carousel-item">
+                  <img
+                    src="images/pexels-dapurmelodi-1109197.jpg"
+                    class="d-block w-100 show-image"
+                    height="500"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- top featured recipe -->
+          <div class="col-md-8 recipes" id="team-col">
+            <div class="row" >
+              <div class="featured-recipes-heading">
+                <h2 class="featured-heading" style="text-align: center">
+                  Featured Recipes
+                </h2>
+              </div>
+              <div class="container team " >
+                <div class="row">
+                  <div class="container scroll-team">
+                  <div class="col-lg-4">
+                    <img
+                      src="images/grilledCheese.png"
+                      class="img-thumbnail rounded-circle"
+                      width="160"
+                    />
+                    <h2>Grilled Cheese</h2>
+                    <p>
+                      <ul>
+                        <li><strong><h4>Ingredients</h4></strong></li>
+                        <li>1/4 cup butter, softened</li>
+                        <li>1 tablespoon grated Parmesan cheese</li>
+                        <li>8 Italian bread slices</li>
+                        <li>4 (3/4-oz.) provolone cheese slices</li>
+                      </ul>
+                    </p>
+                  
+                  </div>
+
+                  <div class="col-lg-4">
+                    <img
+                      src="images/beef.jpg"
+                      class="img-thumbnail rounded-circle"
+                      width="160"
+                    />
+                    <h2>Beef</h2>
+                    <p>
+                      <ul>
+                        <li><strong><h4>Ingredients</h4></strong></li>
+                        <li>1 tsp Dijon mustard</li>
+                        <li>1/2 tsp minced garlic (1 large garlic clove)</li>
+                        <li>1/2 tsp onion powder </li>
+                      </ul>
+                    </p>
+                    
+                  </div>
+                  <div class="col-lg-4">
+                    <img
+                      src="images/twister.jpg"
+                      class="img-thumbnail rounded-circle"
+                      width="160"
+                    />
+                    <h2>Twister</h2>
+                    <p>
+                      <ul>
+                        <li><strong><h4>Ingredients</h4></strong></li>
+                        <li>pound boneless skinless chicken breast</li>
+                        <li>Canola or vegetable oil for deep-frying</li>
+                        <li>6 flour burrito-size tortillas</li>
+                      </ul>
+                    </p>
+                    
+                  </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- header images -->
+            <div class="row" style="padding-top: 20px">
+              <div class="container scroll-team">
+              <div class="col-lg-3">
+                <img src="images/food1.jpg" width="170" height="120" />
+              </div>
+              <div class="col-lg-3">
+                <img src="images/food2.jpg" width="170" height="120" />
+              </div>
+              <div class="col-lg-3">
+                <img src="images/food3.jpg" width="170" height="120" />
+              </div>
+              <div class="col-lg-3">
+                <img src="images/food4.jpg" width="170" height="120" />
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Food ingredients and steps  -->
+      <div class="container-fluid">
+        <div class="row" id="food-row">
+          <div class="col-md-7">
+            <!-- first Food recipe -->
+            <h2 class="featured-food">
+              Burger And Chips
+              <span class="text-muted">It will blow your mind</span>
+            </h2>
+            <div class="row">
+              <!-- ingredients -->
+              <div class="col-md-6">
+                <p>
+                  <ul>
+                    <li><strong><h3>Ingredients</h2></strong></li>
+                      <div class="ingredients">
+                      <input id="check-01" type="checkbox">
+                      <label for="check-01">1 pound ground lean (7% fat) beef</label>
+                      <br>
+                      <input id="check-02" type="checkbox">
+                      <label for="check-02">1 large egg</label>
+                      <br>
+                      <input id="check-03" type="checkbox">
+                      <label for="check-03">½ cup minced onion</label>
+                      <br>
+                      <input id="check-04" type="checkbox">
+                      <label for="check-04">¼ cup fine dried bread crumbs</label>
+                      <br>
+                      <input id="check-05" type="checkbox">
+                      <label for="check-05">1 tablespoon Worcestershire</label>
+                      <br>
+                      <input id="check-06" type="checkbox">
+                      <label for="check-06">1 or 2 cloves garlic, peeled and minced</label>
+                      <br>
+                      <input id="check-07" type="checkbox">
+                      <label for="check-07">About 1/2 teaspoon salt</label>
+                      <br>
+                      <input id="check-08" type="checkbox">
+                      <label for="check-08">About 1/4 teaspoon pepper</label>
+                      <br>
+                      <input id="check-09" type="checkbox">
+                      <label for="check-09">4 hamburger buns (4 in. wide), split</label>
+                      <br>
+                      <input id="check-10" type="checkbox">
+                      <label for="check-10">About 1/4 cup mayonnaise</label>
+                      <br>
+                      <input id="check-11" type="checkbox">
+                      <label for="check-11">About 1/4 cup ketchup</label>
+                    </div>
+                  </ul>
+                </p>
+              </div>
+              <div class="col-md-6">
+                <!-- steps -->
+                <p>
+                  <ul>
+                    <li><strong><h2 class="featured-food">Steps</h2></strong></li>
+                    <ol>
+                      <li class="steps">In a bowl, mix ground beef, egg, onion, bread crumbs, Worcestershire, garlic, 1/2 teaspoon salt, and 1/4 teaspoon pepper until well blended. Divide mixture into four equal portions and shape each into a patty about 4 inches wide.</li>
+                      <li class="steps">Lay burgers on an oiled barbecue grill over a solid bed of hot coals or high heat on a gas grill (you can hold your hand at grill level only 2 to 3 seconds); close lid on gas grill. Cook burgers, turning once, until browned on both sides and no longer pink inside (cut to test), 7 to 8 minutes total. Remove from grill.</li>
+                      <li class="steps">Lay buns, cut side down, on grill and cook until lightly toasted, 30 seconds to 1 minute.</li>
+                    </ol>
+                  </ul>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <img
+              src="images/burger.jpg"
+              class="bd-placeholder-img bd-placeholder-img-lg img-fluid mx-auto"
+            />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-7 order-md-2">
+              <!-- second Food recipe -->
+            <h2 class="featured-food">
+              Strawberry Lemonade
+              <span class="text-muted">It will blow your mind</span>
+            </h2>
+           <div class="row">
+             <div class="col-md-6">
+               <!-- ingredients -->
+               <p>
+                <h2>Ingredients</h2>
+
+                <input id="check-01" type="checkbox">
+                <label for="check-01">Fresh Strawberries</label>
+                <br>
+                <input id="check-02" type="checkbox">
+                <label for="check-02">Small handful of basil, optional</label>
+                <br>
+                <input id="check-03" type="checkbox">
+                <label for="check-03">Lemon Slices for garnish</label>
+                <br>
+                <input id="check-04" type="checkbox">
+                <label for="check-04">Ice as needed</label>
+               </p>
+             </div>
+             <div class="col-md-6">
+               <!-- steps -->
+              <strong><h2 class="featured-food">Steps</h2></strong>
+              <ol>
+                  <li class="steps">Pour lemonade into a pitcher. Hull and halve strawberries</li>
+                  <li class="steps">Place 12oz strawberries and basil into a good blender or food processor and blend until smooth.</li>
+                  <li class="steps">Stir strawberry basil mixture into lemonade. Garnish with remaining strawberries and lemon slices.</li>
+              </ol>
+             </div>
+           </div>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img
+              src="images/Strawberry-Lemonade.jpg"
+              class="bd-placeholder-img bd-placeholder-img-lg img-fluid mx-auto"
+            />
+          </div>
+        </div>
+
+        <!-- Footer section -->
+        <div class="footer-section">
+          <p class="float-right"><a href="#">Back to top</a></p>
+          <p>&copy; 2021 Jongisizwe &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        </div>
+      </div>
+    </main>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

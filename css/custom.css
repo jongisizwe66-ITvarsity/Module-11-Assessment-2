@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+* {
+  font-family: "poppins";
+}
+
+html {
+  font-size: 14px;
+}
+
+.active{
+  color: #ffffff;
+}
+main {
+  width: 100vw;
+}
+.team{
+  font-size: 13px;
+}
+
+#fluid {
+  height: 29%;
+  margin-bottom: 5rem;
+}
+
+.container-fluid {
+  margin-top: 1rem;
+  height: 500px;
+}
+
+li{
+  list-style: none;
+}
+
+.steps{
+  list-style: decimal;
+}
+
+.scroll-team{
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  display: flex;
+  float: left;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 767) {
+  #team-col {
+    width: 100%;
+  }
+}
+
+@media (max-width: 993px) {
+  #team-col {
+    margin-bottom: 2rem;
+    float: left;
+  }
+
+  .ingredients{
+    font-size: 10px;
+  }
+  
+  .steps{
+    list-style: decimal;
+    font-size: 10px;
+  }
+
+  .team .col-lg-4 {
+    text-align: center;
+  }
+  .scroll-team{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    display: flex;
+    float: left;
+    margin-bottom: 2rem;
+  }
+  .col-md-6 li{
+    margin-left: 15px;
+  }
+}
+
+@media (max-width: 540px) {
+  #carouselImg {
+    width: 100%;
+    height: 190px;
+  }
+  .carousel-inner {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+  }
+  .show-image {
+    height: 100%;
+  }
+}
+
+.recipes {
+  padding-top: 12px;
+  border-radius: 9px;
+}
+
+.featured-recipes-heading {
+  width: 100%;
+}
+.featured-heading {
+  font-weight: bolder;
+}
+
+.team .col-lg-4 {
+  text-align: center;
+}
+
+.display-image {
+  width: 100px;
+  height: 70px;
+}
+
+.section-divider {
+  margin: 3rem 0;
+}
+
+.featured-food {
+  font-weight: bolder;
+  text-align: center;
+}
+
+#food-row {
+  margin-bottom: 7rem;
+}
+
+/* End  */
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.blog-header {
+  margin-top: 7rem;
+  max-width: 700px;
+}
+
+@media (max-width: 768px) {
+  .blog-header {
+    margin-top: 8rem;
+  }
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+.card-text {
+  padding-top: 1rem;
+}
+
+.card-block {
+  min-height: 220px;
+}
+
+/* Gallery Page images */
+.galleryImg img{
+  width: 250px;
+  height: 230px;
+  margin: 7px;
+}
+.contact{
+  margin-top: 50px;
+}
+.con{
+  font-size: 40px;
+  font-weight: 700;
+}
+.con-header{
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.con-text{
+  font-weight: 500;
+  font-size: 25px;
+}
+
+/* footer section */
+.footer-section {
+  margin-top: 4rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  border-top: 1px solid #5a5a5a;
+}
